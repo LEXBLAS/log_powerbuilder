@@ -1,4 +1,4 @@
-# cc_lexblas_log
+# cc_lexblas_log PowerBuilder 11.5
 La clase cc_lexblas_log permite crear un archivo Log desde Powerbuilder.
 Funciones
 ---------------
@@ -24,3 +24,6 @@ gc_log.is_log_directory="logger"
 ## Destruyendo la instancia
 En el evento close de la aplicación destruimos la instancia del objeto.
 destroy gc_log
+
+## Archivo cc_lexblas_log.sru
+Si trabaja con una versión distinta a 11.5 puede importar el objeto usando el archivo cc_lexblas_log.sru
