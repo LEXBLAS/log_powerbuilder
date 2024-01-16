@@ -1,0 +1,6 @@
+Save Format v3.0(19990112)
+@begin Targets
+ 0 "lexblas.log.pbt";
+@end;
+DefaultTarget "lexblas.log.pbt";
+DefaultRemoteTarget "lexblas.log.pbt";
