@@ -12,12 +12,18 @@ Funciones
    *  El segundo es la descripción o mensaje a escribir en el log.
 * of_log(string runtimeerror)
   * Recibe como parametro un string y un objeto runtimeerror.El primero es el tipo de mensaje y el segundo el objeto error para escribir el detalle del error.
+## Configuración
+Se ha creado un archivo logger.ini para indicar la carpeta base en donde se creara la carpeta logger, en donde se van a almacenar los archivos .log
+
+Archivo logger.ini :
+ [LOGGER]  
+ DIRECTORIO_BASE=c:/test/
+
+--------------------------------
 
  ## Instancia
  Se puede crear la instancia en el evento open de la aplicación y declarar el objeto como una variable global.  
 gc_log=create cc_lexblas_log
-Se indica el directorio base.  
-gc_log.is_directory_base="C:/"
 Se indica el en donde estaran los archivos log. Si no existe el directorio será creado.  
 gc_log.is_log_directory="logger"
 
